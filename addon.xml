@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.audio.whyisthishappeningpodcast" name="The Intercept Podcasts" version="1.1.0" provider-name="leopheard">
+  <requires>
+    <import addon="xbmc.python" version="2.26.0"/>
+    <import addon="script.module.xbmcswift2" version="2.4.0"/>
+    <import addon="script.module.beautifulsoup4" version="4.3.1"/>
+    <import addon="script.module.requests" version="1.1.0"/>
+    <import addon="script.module.routing" version="0.2.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language></language>
+    <summary lang="en">Why Is This Happening with Chris Hayes</summary>
+    <description lang="en">Every week Chris Hayes asks the big questions that keep him up at night. How do we make sense of this unprecedented moment in world history? Why is this (all) happening? This podcast starts to answer these questions. Writers, experts, and thinkers who are also trying to get to the bottom of them join Chris to break it all down and help him get a better night’s rest. Why is this Happening? is presented by MSNBC and NBCNews Think.</description>
+    <license>The MIT License (MIT)</license>
+    <forum></forum>
+    <email>leopheard@gmail.com</email>
+    <source>https://github.com/leopheard/WhyIsThisHappeningpodcast</source>
+    <website>https://art19.com/shows/why-is-this-happening-with-chris-hayes</website>
+        	<assets>
+			<icon>resources/media/icon.jpg</icon>
+			<fanart>resources/media/fanart.jpg</fanart>
+			<screenshot>resources/media/1.png</screenshot>
+			<screenshot>resources/media/2.jpg</screenshot>
+			<screenshot>resources/media/3.jpg</screenshot>
+		</assets>
+  </extension>
+</addon>
